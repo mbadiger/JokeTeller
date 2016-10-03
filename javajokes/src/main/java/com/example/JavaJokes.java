@@ -20,7 +20,7 @@ public class JavaJokes {
 
     public String getJoke() {
         Random r = new Random();
-        int i1 = r.nextInt(4 - 0) + 4;
-        return jokes[i1];
+        int rand = r.nextInt(5);
+        return jokes[rand];
     }
 }
